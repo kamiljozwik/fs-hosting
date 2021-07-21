@@ -1,1 +1,1 @@
-# fs-hosting
+## Next.js version of the app
