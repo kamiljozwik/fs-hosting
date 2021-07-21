@@ -1,1 +1,1 @@
-# fs-hosting
+# React version of the app
