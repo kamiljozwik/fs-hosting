@@ -12,7 +12,6 @@ export default function Home({ joke }) {
       setStatus("PENDING");
       /** Data fetched from our endpint */
       const resp = await axios.get(`/api/${name}`);
-      console.log(resp);
       setData(resp?.data?.country ?? []);
       setStatus("IDLE");
     } catch (error) {
